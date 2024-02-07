@@ -1,0 +1,23 @@
+# Arquivos compilados Java
+*.class
+
+# Arquivos de construção do Maven
+target/
+
+# Arquivos de construção do Gradle
+build/
+
+# Arquivos de configuração do IntelliJ IDEA
+.idea/
+
+# Arquivos de dependência do Maven
+*.iml
+*.ipr
+*.iws
+.idea
+
+# Logs e arquivos temporários
+*.log
+*.swp
+*~
+
