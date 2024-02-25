@@ -22,5 +22,6 @@ public class HerancaTest01 {
         funcionario.setSalario(30000);
         System.out.println("---------------");
         funcionario.imprime();
+        funcionario.relatorioPagamento();
     }
 }
