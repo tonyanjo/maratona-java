@@ -26,6 +26,14 @@ public class LoginExercicio {
     }
 
 
+    public void coletarCredenciais() {
+        Scanner scanner = new Scanner(in);
+        System.out.println("Insira o Usuario:");
+        this.loginColetado = scanner.nextLine();
+        System.out.println("Insira a Senha:");
+        this.senhaColetada = scanner.nextLine();
+    }
+
     public void logar() {
         while (this.tentativa < 3) {
             coletarCredenciais();
@@ -51,14 +59,6 @@ public class LoginExercicio {
                 }
             }
         }
-    }
-
-    public void coletarCredenciais() {
-        Scanner scanner = new Scanner(in);
-        System.out.println("Insira o Usuario:");
-        this.loginColetado = scanner.nextLine();
-        System.out.println("Insira a Senha:");
-        this.senhaColetada = scanner.nextLine();
     }
 
 }

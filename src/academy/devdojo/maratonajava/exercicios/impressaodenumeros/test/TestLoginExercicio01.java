@@ -8,8 +8,5 @@ public class TestLoginExercicio01 {
 
         efetuarLogin.logar();
 
-
-
-
     }
 }
